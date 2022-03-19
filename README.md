@@ -9,7 +9,7 @@
 + [Licence](#licence)
 + [Authors Info](#author-Info)
 ## Description
-<p>Welcome to JOJO Pizza. What do you need? We will find it for you and deliver it in a few minutes. Order from the comfort of your home and our Oregano will bring it to your doorstep.</p>
+<p>Welcome to JOJO Pizza. What do you need? We will find it for you and deliver it in a few minutes. Order from the comfort of your home and our Jotz will bring it to your doorstep.</p>
 
 ##Prerequisites
 - Have Git INstalled
@@ -20,7 +20,7 @@
 -   Open your terminal (ctrl+alt+T).
 -   Initialize git on your terminal.
 -   git clone <https://github.com/JoyMarocho/JOJO-PIZZA.git>.
--   open the 'oregano' folder.
+-   open the 'Jojo-Pizza' folder.
 -   Open the file named index.html on your preferred browser.
 -   Enter your pizza of choice into the input boxes.
 -   Click Submit.
