@@ -23,7 +23,7 @@
 
     <!--main css-->
     <link rel="stylesheet" href="./css/responsive.css">
-    
+
     <link href="css/style.css" rel="stylesheet" type="text/css">
 
 </head>
@@ -36,7 +36,7 @@
                 <div class="container box_1620">
 
                     <!--Brand and Toggle get grouped for better mobile display-->
-<!--
+                    <!--
                     <a class="navbar-brand logo_h" href="index.html"><img src="#" alt=""> </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarsupportedContent" aria-controls="navbarSupportedContent"
@@ -61,86 +61,242 @@
     </header>
     <!--==================Header Menu Area ========================-->
 
-<!--------------------- Slide Area ------------------------->
-<!--===The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes support for previous/next controls and indicators.=================================-->
-   <!--=========The .active class needs to be added to one of the slides. Otherwise, the carousel will not be visible.==========--> 
+    <!--------------------- Slide Area ------------------------->
+    <!--===The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes support for previous/next controls and indicators.=================================-->
+    <!--=========The .active class needs to be added to one of the slides. Otherwise, the carousel will not be visible.==========-->
     <div class="container fluid" id="Welcome">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"  aria-label="Slide 3"></button>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                    aria-label="Slide 3"></button>
+            </div>
+            <!--================== The presence of the .d-block and .img-fluid on carousel images to prevent browser default image alignment ===================-->
+            <!--=============== Adding captions to slides easily with the.carousel-caption element within any .carousel-item. ===================-->
+            <!--=============== We hide them initially with .d-none and bring them back on medium-sized devices with .d-md-block. ===============-->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/pizza6.jpeg" class="d-block w-100 img-fluid" id="pizza3" alt="Pizza on Table">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>WELCOME TO JOJO-PIZZA</h5>
+                        <p>You are probably a fanatic for pizza like us. And for that we want to make it easier for you
+                            to have pizza anytime you feel like.</p>
+                        <p>We are offering online ordering and delivery at an afforable fee, making sure you get your
+                            favourite pizza at your location</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/pizza10.jpeg" class="d-block w-100 img-fluid" alt="Served Pizza">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>WELCOME TO JOJO-PIZZA</h5>
+                        <p>You are probably a fanatic for pizza like us. And for that we want to make it easier for you
+                            to have pizza anytime you feel like.</p>
+                        <p>We are offering online ordering and delivery at an afforable fee, making sure you get your
+                            favourite pizza at your location</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="./img/pizza9.jpeg" class="d-block w-100 img-fluid" alt="Packed Pizza">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>WELCOME TO JOJO-PIZZA</h5>
+                        <p>You are probably a fanatic for pizza like us. And for that we want to make it easier for you
+                            to have pizza anytime you feel like.</p>
+                        <p>We are offering online ordering and delivery at an afforable fee, making sure you get your
+                            favourite pizza at your location</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-ride="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-ride="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
- <!--================== The presence of the .d-block and .img-fluid on carousel images to prevent browser default image alignment ===================-->
-<!--=============== Adding captions to slides easily with the.carousel-caption element within any .carousel-item. ===================-->
-<!--=============== We hide them initially with .d-none and bring them back on medium-sized devices with .d-md-block. ===============-->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./img/pizza6.jpeg" class="d-block w-100 img-fluid" id="pizza3" alt="Pizza on Table">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>WELCOME TO JOJO-PIZZA</h5>
-                    <p>You are probably a fanatic for pizza like us. And for that we want to make it easier for you to have pizza anytime you feel like.</p>
-                    <p>We are offering online ordering and delivery at an afforable fee, making sure you get your favourite pizza at your location</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./img/pizza10.jpeg" class="d-block w-100 img-fluid" alt="Served Pizza">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>WELCOME TO JOJO-PIZZA</h5>
-                    <p>You are probably a fanatic for pizza like us. And for that we want to make it easier for you to have pizza anytime you feel like.</p>
-                    <p>We are offering online ordering and delivery at an afforable fee, making sure you get your favourite pizza at your location</p>
-                </div>
-            </div>
-            <div class="carousel-item ">
-                <img src="./img/pizza9.jpeg" class="d-block w-100 img-fluid"  alt="Packed Pizza">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>WELCOME TO JOJO-PIZZA</h5>
-                    <p>You are probably a fanatic for pizza like us. And for that we want to make it easier for you to have pizza anytime you feel like.</p>
-                    <p>We are offering online ordering and delivery at an afforable fee, making sure you get your favourite pizza at your location</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-ride="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-ride="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
     </div>
-</div>
 
-<!--================Wrap a pair of <input class="form-control"> and <label> elements in .form-floating to enable floating labels with Bootstrap’s textual form fields.===================-->
-<div class="container w-25" id="pizza-attributes">
-    <div class="row">
-        <div class="col">
-            <h3>Pizza</h3>
-            <form id="pizza-form">
-                <div class="form-floating mb-3">
-                    <select class="form-select" aria-label="Default Select Example" id="pizzaType">
-                        <option selected> Pizza Type</option>
-                        <option value="pepperoni"> Pepperoni Pizza </option>
-                        <option value="chicken-tikka"> Chicken Tikka Pizza </option>
-                        <option value="hawaiian"> Hawaiian Pizza </option>
-                        <option value="bbq"> BBQ Pizza </option>
-                        <option value="veggie-feast"> Veggie Feast Pizza </option>
-                        <option value="meat-deluxe"> Meat Deluxe Pizza </option>
-                        <option value="cheese"> Cheese Pizza </option>
-                        <option value="bbq-chicken"> BBQ Chicken Pizza </option>
-                        <option value="margherita"> Margherita Pizza </option>
-                        <option value="buffalo"> Buffalo Pizza </option>
-                        <option value="Supreme"> Supreme Pizza </option>
-                    </select> 
-                </div>                
-    <div class="form-floating mb-3">
-
-                </div>
+    <!--================Wrap a pair of <input class="form-control"> and <label> elements in .form-floating to enable floating labels with Bootstrap’s textual form fields.===================-->
+    <div class="container w-25" id="pizza-attributes">
+        <div class="row">
+            <div class="col">
+                <h3>Pizza</h3>
+                <form id="pizza-form">
+                    <div class="form-floating mb-3">
+                        <select class="form-select" aria-label="Default Select Example" id="pizzaType">
+                            <option selected> Pizza Type</option>
+                            <option value="pepperoni"> Pepperoni Pizza </option>
+                            <option value="chicken-tikka"> Chicken Tikka Pizza </option>
+                            <option value="hawaiian"> Hawaiian Pizza </option>
+                            <option value="bbq"> BBQ Pizza </option>
+                            <option value="veggie-feast"> Veggie Feast Pizza </option>
+                            <option value="meat-deluxe"> Meat Deluxe Pizza </option>
+                            <option value="cheese"> Cheese Pizza </option>
+                            <option value="bbq-chicken"> BBQ Chicken Pizza </option>
+                            <option value="margherita"> Margherita Pizza </option>
+                            <option value="buffalo"> Buffalo Pizza </option>
+                            <option value="Supreme"> Supreme Pizza </option>
+                        </select>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <!--aria-label is an attribute defined in the WAI-ARIA(opens in a new tab) specification. This specification extends native HTML, allowing you to change the way an HTML element is "translated" into the accessibility tree. By default, an HTML element will use its text content as the accessibility label.-->
+                        <select class="form-select" aria-label="Default select example" id="pizzaSize">
+                            <option selected> Pizza Size</option>
+                            <option value="small"> Small </option>
+                            <option value="medium"> Medium </option>
+                            <option value="large"> Large </option>
+                            <option value="extra-large"> Extra Large </option>
+                        </select>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <select class="form-select" aria-label="Default select example" id="pizzaCrust">
+                            <option selected> Pizza Crust</option>
+                            <option value="cripsy"> Cripsy Crust </option>
+                            <option value="stuffed"> Stuffed Crust </option>
+                            <option value="glutten-free"> Gluten-Free Crust </option>
+                            <option value="cracker"> Cracker Crust </option>
+                            <option value="cheese"> Cheese Crusrt</option>
+                            <option value="thick"> Thick Crust</option>
+                            <option value="pan"> Pan Crust </option>
+                            <option value="thin"> Thin Crust </option>
+                        </select>
+                    </div>
+                    <div>
+                        <h5><strong> PIZZA TOPPINGS </strong></h5>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="toppings" id="greenPepper"
+                                value="green-pepper">
+                            <label class="form-check-label" for="inlineCheckbox2"> Green Pepper </label>
+                        </div>
+                        div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="toppings" id="onions" value="onions">
+                        <label class="form-check-label" for="inlineCheckbox1"> Onions </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="toppings" id="freshGarlic"
+                            value="fresh-garlic">
+                        <label class="form-check-label" for="inlineCheckbox3"> Fresh Garlic </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="toppings" id="mushrooms"
+                            value="mushrooms">
+                        <label class="form-check-label" for="inlineCheckbox3"> Mushrooms </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="toppings" id="sausage" value="sausage">
+                        <label class="form-check-label" for="inlineCheckbox3"> Sausage </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="toppings" id="pineapple"
+                            value="pineapple">
+                        <label class="form-check-label" for="inlineCheckbox3"> Pineapple </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="toppings" id="blackolives"
+                            value="blackolives">
+                        <label class="form-check-label" for="inlineCheckbox3"> Black Olives </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="toppings" id="extracheese"
+                            value="extracheese">
+                        <label class="form-check-label" for="inlineCheckbox3"> Extra Cheese </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="toppings" id="pepperoni"
+                            value="pepperoni">
+                        <label class="form-check-label" for="inlineCheckbox3"> Pepperoni </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="toppings" id="spinach" value="spinach">
+                        <label class="form-check-label" for="inlineCheckbox3"> Spinach </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="toppings" id="notoppingatall"
+                            value="notoppingatall">
+                        <label class="form-check-label" for="inlineCheckbox3"> No Topping At All </label>
+                    </div>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="s-quantity" placeholder="Enter Pizza Quantity">
+                <label for="s-quantity"> Quantity </label>
+            </div>
+            <button type="submit" class="btn btn-dark"> Submit Order </button>
             </form>
-
         </div>
     </div>
-</div>
+    </div>
+
+    <!--========================Make a Table==================================-->
+    <div class="container" id="table-order">
+        <table class="table">
+            <thead>
+                <tr>
+                <th scope="col"> Pizza Type </th>
+                <th scope="col"> Crust </th>
+                <th scope="col"> Topping </th>
+                <th scope="col"> Quantity </th>
+                <th scope="col"> Price </th>
+                </tr>
+            </thead>
+            <thbody id="table-content">
+                <tr>
+                    <td id="pizza-type"></td>
+                    <td id="pizza-crust"></td>
+                    <td id="pizza-toppings"></td>
+                    <td id="pizza-quantity"></td>
+                    <td id="pizza-price"></td>
+                </tr>
+            </thbody>
+        </table>
+    </div>
+
+    <!--=================Create Location for Pick UP======================-->
+    <div class="container" id="location">
+        <div class="row">
+        <div class="col">
+            <h5> Delivery Options </h5>
+            <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="pick">
+            <label class="form-check-label" for="fllexRadioDefault1">
+                To Pick
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="toDeliver" checked>
+            <label class="form-check-label" for="fllexRadioDefault2">
+                To Deliver
+            </label>
+        </div>
+        </div>
+        <div class="col">
+            <div class="form-floating mb-3">
+                <input type="text" name="location" id="delivery" placeholder="location">
+            </div>
+        </div>
+        <div class="d-grid gap-2 col-4mmx-auto">
+            <button type="button" class="btn btn-dark btn-lg" id="checkout"> Checkout </button>
+        </div>
+        </div>
+    </div>
+
+    <!---===========================Page Footer==================================--->
+    <footer>
+        <p> Copyright: JOJO-PIZZA</p>
+        <p> Thank you for shopping with us.</p>
+        <a href="mailto:joy@jojopizza.com">joy@jojopizza.com</a>
+    </footer>
+
+    <script src="./js/scripts.js"></script>
+    <script src="./bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+    <script src="./js/"
+
+
 
 </body>
 
