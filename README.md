@@ -9,7 +9,7 @@
 + [Licence](#licence)
 + [Authors Info](#author-Info)
 ## Description
-<p>Welcome to JOJO Pizza. What do you need? We will find it for you and deliver it in a few minutes. Order from the comfort of your home and our Jotz will bring it to your doorstep.</p>
+<p>Welcome to JOJO Pizza. What do you need? We will find it for you and deliver it in a few minutes. Order from the comfort of your home and our JOJO Pizza will bring it to your doorstep.</p>
 
 ##Prerequisites
 - Have Git INstalled
