@@ -23,7 +23,8 @@
 
     <!--main css-->
     <link rel="stylesheet" href="./css/responsive.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link href="css/style.css" rel="stylesheet" type="text/css">
 
 </head>
@@ -237,14 +238,14 @@
         <table class="table">
             <thead>
                 <tr>
-                <th scope="col"> Pizza Type </th>
-                <th scope="col"> Crust </th>
-                <th scope="col"> Topping </th>
-                <th scope="col"> Quantity </th>
-                <th scope="col"> Price </th>
+                    <th scope="col"> Pizza Type </th>
+                    <th scope="col"> Crust </th>
+                    <th scope="col"> Topping </th>
+                    <th scope="col"> Quantity </th>
+                    <th scope="col"> Price </th>
                 </tr>
             </thead>
-            <thbody id="table-content">
+            <tbody id="table-content">
                 <tr>
                     <td id="pizza-type"></td>
                     <td id="pizza-crust"></td>
@@ -252,36 +253,36 @@
                     <td id="pizza-quantity"></td>
                     <td id="pizza-price"></td>
                 </tr>
-            </thbody>
+            </tbody>
         </table>
     </div>
 
     <!--=================Create Location for Pick UP======================-->
     <div class="container" id="location">
         <div class="row">
-        <div class="col">
-            <h5> Delivery Options </h5>
-            <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="pick">
-            <label class="form-check-label" for="fllexRadioDefault1">
-                To Pick
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="toDeliver" checked>
-            <label class="form-check-label" for="fllexRadioDefault2">
-                To Deliver
-            </label>
-        </div>
-        </div>
-        <div class="col">
-            <div class="form-floating mb-3">
-                <input type="text" name="location" id="delivery" placeholder="location">
+            <div class="col">
+                <h5> Delivery Options </h5>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="pick">
+                    <label class="form-check-label" for="fllexRadioDefault1">
+                        To Pick
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="toDeliver" checked>
+                    <label class="form-check-label" for="fllexRadioDefault2">
+                        To Deliver
+                    </label>
+                </div>
             </div>
-        </div>
-        <div class="d-grid gap-2 col-4mmx-auto">
-            <button type="button" class="btn btn-dark btn-lg" id="checkout"> Checkout </button>
-        </div>
+            <div class="col">
+                <div class="form-floating mb-3">
+                    <input type="text" name="location" id="delivery" placeholder="location">
+                </div>
+            </div>
+            <div class="d-grid gap-2 col-4mmx-auto">
+                <button type="button" class="btn btn-dark btn-lg" id="checkout"> Checkout </button>
+            </div>
         </div>
     </div>
 
