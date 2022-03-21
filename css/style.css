@@ -7,7 +7,7 @@ body {
   height: 100vh;
 }
 .row{
-  background-color: rgba(30, 144, 255, 0.9);
+  background-color: rgba(219, 223, 219, 0.9);
   border-radius: 6px;
   padding-top: 20px;
 }
@@ -183,9 +183,4 @@ footer{
 }
 #table-order{
   display: none;
-}
-ul{
-  list-style-type: none;
-  text-decoration: none;
-  background-color: red;
 }
