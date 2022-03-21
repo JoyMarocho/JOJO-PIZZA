@@ -11,7 +11,7 @@
 
 
 var sizes = [{ name: "small", price: 500 }, { name: "medium", price: 800 }, { name: "large", price: 1000 }, { name: "extra-large", price: 1300 }];
-var crusts = [{ name: "stuffed", price: 100 }, { name: "glutten-free", price: 150 }, { name: "crispy", price: "200" }, { name: "cracker", price: "200" }, { name: "cheese", price: "300" }, { name: "thick", price: "200" }, { name: "thin", price: "300" }, { name: "pan", price: "300" }];
+var crusts = [{ name: "stuffed", price: 100 }, { name: "glutten-free", price: 150 }, { name: "crispy", price: 200 }, { name: "cracker", price: 200 }, { name: "cheese", price: 300 }, { name: "thick", price: 200 }, { name: "thin", price: 300 }, { name: "pan", price: 300 }];
 var toppings = [{ name: "onions", price: 100 }, { name: "fresh-garlic", price: 250 }, { name: "green-pepper", price: 150 }, { name: "mushroom", price: 150 }, { name: "pinapple", price: 200 }, { name: "sausage", price: 200 }, { name: "black-olives", price: 250 }, { name: "extra-cheese", price: 250 }, { name: "pepperoni", price: 200 }, { name: "spinach", price: 150 }, { name: "no-toppings-at-all", price: 150 },];
 
 function Pizza(type, size, crust, toppings,) {
@@ -20,7 +20,7 @@ function Pizza(type, size, crust, toppings,) {
     this.crust = crust; 
     this.toppings = toppings;
 }
-
+//when document is loaded
 $(document).ready(function () {
     var total = 0;
 
@@ -73,9 +73,14 @@ $(document).ready(function () {
             var isChecked = $("#toDeliver").is(':checked');
             var location = $("#delivery").val();
 
+            let isToPick = $("#toPick").is(':checked');
+
             if (isChecked && location !== "") {
                 var totalAmount = totalPrice + 200;
-                alert("Your delivery fee is Ksh. 200 and the total cost is" + " " + totalAmount);
+                alert(`Your delivery location is ${location} and fee is Ksh. 200 and the total cost is ${totalAmount}`);
+            }
+            else if(isToPick && location !==null ){
+                alert(`You pizza will be ready for pickup in one hour from ${location}`)          
             } else {
                 alert("Please enter your location");
             }
